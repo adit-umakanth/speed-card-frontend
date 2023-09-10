@@ -2,8 +2,6 @@
   import SpeedTable from "./components/SpeedTable.svelte";
 </script>
 
-<main>
-  <div class="card">
-    <SpeedTable />
-  </div>
-</main>
+<div style="min-height: 100%; min-width: 100%">
+  <SpeedTable />
+</div>

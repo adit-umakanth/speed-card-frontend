@@ -48,9 +48,13 @@
 <style>
     .speedtable {
         display: grid;
+        justify-items: center;
+        align-items: center;
         grid-gap: 5px;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(5, 1fr);
+        min-width: 100vw;
+        min-height: 100vh;
     }
     .player-hand {
         display: flex;
