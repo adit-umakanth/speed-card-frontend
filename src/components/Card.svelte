@@ -1,6 +1,11 @@
 <script lang="ts">
-    export let suit: string;
-    export let rank: string;
+    import type { Rank } from "../types/Rank";
+    import type { Suit } from "../types/Suit";
+
+    export let suit: Suit | undefined;
+    export let rank: Rank | undefined;
+
+    function getCardRank() {}
 </script>
 
 <div class="card-border">
