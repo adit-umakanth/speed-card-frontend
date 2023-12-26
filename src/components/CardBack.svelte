@@ -6,5 +6,6 @@
         border-radius: 5px;
         width: 10vh;
         height: 14vh;
+        margin: 10px;
     }
 </style>
